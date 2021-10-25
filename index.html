@@ -12,7 +12,8 @@
         var today = new Date();
   var day = today.getDay();
   var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-  console.log("Today is : " + daylist[day] + ".");
+  document.write("Today is : " + daylist[day] + ".");
+  document.write("<br>");
   var hour = today.getHours();
   var minute = today.getMinutes();
   var second = today.getSeconds();
@@ -44,7 +45,7 @@
   prepand=' AM';
   } 
   } 
-console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second);
+document.write("Current Time : "+hour + prepand + " : " + minute + " : " + second);
 
 
 
